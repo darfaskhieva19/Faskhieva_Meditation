@@ -15,6 +15,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onEnter(View view) {
-        //startActivity(new Intent(this, add_data.class));
+        startActivity(new Intent(this, LoginActivity.class));
+    }
+
+    public void onRegister(View view) {
+        Intent regIntent = new Intent(this,RegActivity.class);
+        startActivity(regIntent);
     }
 }
