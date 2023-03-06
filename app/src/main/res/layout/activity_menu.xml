@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegActivity"
+    tools:context=".MenuActivity"
     android:background="@color/backGround">
 
     <TextView
         android:id="@+id/txtReg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Тут будет регистрация"
+        android:text="Тут будет меню"
         android:textColor="@color/white"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -2,22 +2,20 @@ package com.example.meditation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class LoginActivity extends AppCompatActivity {
+public class PhotoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_photo);
     }
 
-    public void onReg(View view) {
-        startActivity(new Intent(this, RegActivity.class));
+    public void onClose(View view) {
     }
 
-    public void NextMain(View view) {
+    public void onDelete(View view) {
     }
 }
