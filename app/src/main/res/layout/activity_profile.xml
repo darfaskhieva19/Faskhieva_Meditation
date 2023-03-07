@@ -52,7 +52,7 @@
                 android:fontFamily="@font/alegreya_sans_medium"
                 android:textColor="@color/white"
                 android:textSize="16dp"
-                android:onClick="nextLogin"
+                android:onClick="NextLogin"
                 />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
